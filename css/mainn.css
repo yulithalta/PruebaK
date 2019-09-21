@@ -16,8 +16,11 @@ div{
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
     background-color: #FFA07A;
+    text-align: center;
 }
-
+h3{
+    color: #FFA07A;
+}
 body {
     line-height: 1;
 }
