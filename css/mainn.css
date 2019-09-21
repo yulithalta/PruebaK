@@ -1,16 +1,21 @@
 /* Reset */
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, span,h1, h2, h3, h4, h5, h6, p, pre, a,img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-}
+    color: #fff;
 
+}
+div{
+    color: #000;
+}
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
+    background-color: #FFA07A;
 }
 
 body {
@@ -60,6 +65,7 @@ nav{
     position: fixed;
     z-index: 100;
     min-height: 5vh;
+    text-align: center;
 }
 
 nav ul{
@@ -80,12 +86,10 @@ nav ul li a, .dropbtn{
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
-    /*border: 1px solid white;  borde de las letritas*/
-
 }
 
 nav ul li a:hover, .DropDown:hover .dropbtn{
-    background-color: rgba(46,46,46,0.5);
+    background-color: #FFA07A;
 }
 
 .DropDown-content{
@@ -137,7 +141,7 @@ tr:hover{
 }
 
 .border-botton{
-    border-bottom: 3px solid #FF007F;
+    border-bottom: 3px solid #FFF;
 
 }
 .cuadro{
